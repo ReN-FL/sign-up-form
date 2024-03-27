@@ -89,6 +89,9 @@ button {
 button + a {
   color: #5d803f;
 }
+button:hover {
+  background-color: #3a5028;
+}
 .image-credits {
   position: absolute;
   bottom: 20px;
@@ -118,10 +121,20 @@ button + a {
 }
 footer {
   width: 100%;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 footer > p {
   margin: 0;
+}
+footer > p > a {
+  color: rgb(155, 1, 1);
+}
+footer > p > a:hover {
+  color: rgb(216, 4, 4);
+}
+.send a {
+  color: #5d803f;
+  text-decoration: none;
 }
 @media only screen and (max-width: 980px) {
   .container {
